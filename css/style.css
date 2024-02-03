@@ -82,6 +82,9 @@
 
 
 /*** Navbar ***/
+.gothic {
+    font-family: cursive;
+}
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     margin-left: 25px;
@@ -97,6 +100,7 @@
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
 }
+
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
@@ -152,7 +156,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(27, 32, 46, 0.9), rgba(15, 23, 43, .9)), url(../img/bg-hero.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,7 +241,7 @@
     position: relative;
     height: 100%;
     min-height: 500px;
-    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.jpg);
+    background: linear-gradient(rgba(15, 23, 43, .1), rgba(15, 23, 43, .1)), url(../img/video.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
