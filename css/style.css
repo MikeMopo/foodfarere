@@ -44,7 +44,7 @@
 /*** Button ***/
 .btn {
     font-family: 'Nunito', sans-serif;
-    font-weight: 500;
+    font-weight: 200;
     text-transform: uppercase;
     transition: .5s;
 }
@@ -55,12 +55,12 @@
 }
 
 .btn-square {
-    width: 38px;
+    width: 25px;
     height: 38px;
 }
 
 .btn-sm-square {
-    width: 32px;
+    width: 20px;
     height: 32px;
 }
 
@@ -361,67 +361,50 @@
     padding-right: 0;
     border-right: none;
 }
-/*!*--------------------------------------------------------------*/
-/*# Portfolio Details*/
-/*--------------------------------------------------------------*!*/
-/*.portfolio-details {*/
-/*    padding-top: 40px;*/
-/*}*/
+@media (max-width:  768px) {
+    .nav-pills {
+        flex-direction: column;
+    }
+}
+@media (max-width:  768px) {
+    .nav-item h6 {
+        font-size:  14px; /* Adjust as needed */
+        padding:  5px  10px; /* Adjust as needed */
+    }
+}
+@media (max-width:  768px) {
+    .nav-item {
+        margin-bottom:  10px; /* Adjust as needed */
+    }
+}
+.menu-item h6 {
+    background-color: #1fab9f; /* Change to desired color */
+    padding:  10px; /* Add padding for visual separation */
+    border-radius:  5px; /* Optional: round corners */
+}
+.menu-item.active {
+    background-color: #e0e0e0; /* Change to desired color */
+}
 
-/*.portfolio-details .portfolio-details-slider img {*/
-/*    width: 100%;*/
-/*}*/
+.menu-item {
+    margin-bottom:  15px;
+}
+.menu-item:hover {
+    background-color: #dcdcdc;
+}
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-/*.portfolio-details .portfolio-details-slider .swiper-pagination {*/
-/*    margin-top: 20px;*/
-/*    position: relative;*/
-/*}*/
+h6 {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size:  18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    vertical-align: middle;
+}
 
-/*.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {*/
-/*    width: 12px;*/
-/*    height: 12px;*/
-/*    background-color: #fff;*/
-/*    opacity: 1;*/
-/*    border: 1px solid #0078ff;*/
-/*}*/
-
-/*.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {*/
-/*    background-color: #0078ff;*/
-/*}*/
-
-/*.portfolio-details .portfolio-info {*/
-/*    padding: 30px;*/
-/*    box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);*/
-/*}*/
-
-/*.portfolio-details .portfolio-info h3 {*/
-/*    font-size: 22px;*/
-/*    font-weight: 700;*/
-/*    margin-bottom: 20px;*/
-/*    padding-bottom: 20px;*/
-/*    border-bottom: 1px solid #eee;*/
-/*}*/
-
-/*.portfolio-details .portfolio-info ul {*/
-/*    list-style: none;*/
-/*    padding: 0;*/
-/*    font-size: 15px;*/
-/*}*/
-
-/*.portfolio-details .portfolio-info ul li+li {*/
-/*    margin-top: 10px;*/
-/*}*/
-
-/*.portfolio-details .portfolio-description {*/
-/*    padding-top: 30px;*/
-/*}*/
-
-/*.portfolio-details .portfolio-description h2 {*/
-/*    font-size: 26px;*/
-/*    font-weight: 700;*/
-/*    margin-bottom: 20px;*/
-/*}*/
-
-/*.portfolio-details .portfolio-description p {*/
-/*    padding: 0;*/
-/*}*/
