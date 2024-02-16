@@ -361,22 +361,21 @@
     padding-right: 0;
     border-right: none;
 }
-@media (max-width:  768px) {
+@media (max-width:   768px) {
     .nav-pills {
-        flex-direction: column;
+        flex-direction: row; /* Keep the items in a row */
+        flex-wrap: nowrap; /* Prevent wrapping */
     }
-}
-@media (max-width:  768px) {
+    .nav-item {
+        flex-shrink:  0; /* Prevents the items from shrinking */
+        min-width:  150px; /* Adjust the min-width value as needed */
+    }
     .nav-item h6 {
         font-size:  14px; /* Adjust as needed */
         padding:  5px  10px; /* Adjust as needed */
     }
 }
-@media (max-width:  768px) {
-    .nav-item {
-        margin-bottom:  10px; /* Adjust as needed */
-    }
-}
+
 .menu-con {
     padding: 10px;
     margin-bottom: 30px;
