@@ -377,10 +377,22 @@
         margin-bottom:  10px; /* Adjust as needed */
     }
 }
+.menu-con {
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+.work-text {
+    padding: 10px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
 .menu-item h6 {
     background-color: #1fab9f; /* Change to desired color */
     padding:  10px; /* Add padding for visual separation */
     border-radius:  5px; /* Optional: round corners */
+    margin-bottom: 30px;
 }
 .menu-item.active {
     background-color: #e0e0e0; /* Change to desired color */
