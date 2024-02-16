@@ -368,11 +368,11 @@
     }
     .nav-item {
         flex-shrink:  0; /* Prevents the items from shrinking */
-        min-width:  150px; /* Adjust the min-width value as needed */
+        min-width:  100px; /* Adjust the min-width value as needed */
     }
     .nav-item h6 {
-        font-size:  14px; /* Adjust as needed */
-        padding:  5px  10px; /* Adjust as needed */
+        font-size:  12px; /* Adjust as needed */
+        padding:  5px  5px; /* Adjust as needed */
     }
 }
 
