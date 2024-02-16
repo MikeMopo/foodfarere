@@ -368,7 +368,6 @@
     }
     .nav-item {
         flex-shrink:  0; /* Prevents the items from shrinking */
-        min-width:  80px; /* Adjust the min-width value as needed */
         margin-left:   10px; /* Adjust as needed */
         margin-right:   10px; /* Adjust as needed */
         padding-left:   10px; /* Adjust as needed */
