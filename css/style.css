@@ -368,11 +368,22 @@
     }
     .nav-item {
         flex-shrink:  0; /* Prevents the items from shrinking */
-        min-width:  100px; /* Adjust the min-width value as needed */
+        min-width:  80px; /* Adjust the min-width value as needed */
+        margin-left:   10px; /* Adjust as needed */
+        margin-right:   10px; /* Adjust as needed */
+        padding-left:   10px; /* Adjust as needed */
+        padding-right:   10px; /* Adjust as needed */
     }
     .nav-item h6 {
         font-size:  12px; /* Adjust as needed */
         padding:  5px  5px; /* Adjust as needed */
+    }
+    .nav-item:first-child {
+        margin-left:   0;
+    }
+
+    .nav-item:last-child {
+        margin-right:   0;
     }
 }
 
