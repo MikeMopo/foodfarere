@@ -364,7 +364,7 @@
 @media (max-width:   768px) {
     .nav-pills {
         flex-direction: row; /* Keep the items in a row */
-        flex-wrap: nowrap; /* Prevent wrapping */
+        flex-wrap: wrap; /* Prevent wrapping */
 
     }
     .nav-item {
