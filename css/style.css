@@ -5,6 +5,10 @@
     --dark: #1fab9f;
 }
 
+.fff-secondary {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
@@ -80,7 +84,6 @@
     border-radius: 2px;
 }
 
-
 /*** Navbar ***/
 .gothic {
     font-family: cursive;
@@ -100,7 +103,6 @@
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
 }
-
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
@@ -166,10 +168,6 @@
     background-size: cover;
 }
 
-.hero-header img {
-    animation: imgRotate 50s linear infinite;
-}
-
 @keyframes imgRotate { 
     100% { 
         transform: rotate(360deg); 
@@ -179,7 +177,6 @@
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
-
 
 /*** Section Title ***/
 .section-title {
@@ -216,6 +213,20 @@
 
 
 /*** Service ***/
+/*.circular-image {*/
+/*    border-radius:  50%;*/
+/*    width:  100%;*/
+/*    height: auto;*/
+/*}*/
+/*.work-img img {*/
+/*    border-radius:  50%; */
+/*    width:  100%; */
+/*    height: auto; !* Maintain the aspect ratio *!*/
+/*}*/
+
+.content-padding {
+    padding-top: 400px;
+}
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
@@ -232,7 +243,6 @@
 .service-item:hover * {
     color: var(--light) !important;
 }
-
 
 /*** Team ***/
 .team-item {
@@ -363,21 +373,21 @@
 }
 @media (max-width:   768px) {
     .nav-pills {
-        flex-direction: row; /* Keep the items in a row */
-        flex-wrap: nowrap; /* Prevent wrapping */
+        flex-direction: row;
+        flex-wrap: wrap;
 
     }
     .nav-item {
         min-width: fit-content;
-        margin-left:   5px; /* Adjust as needed */
-        margin-right:   5px; /* Adjust as needed */
-        padding-left:   5px; /* Adjust as needed */
-        padding-right:   5px; /* Adjust as needed */
+        margin-left:   5px;
+        margin-right:   5px;
+        padding-left:   5px;
+        padding-right:   5px;
 
     }
     .nav-item h6 {
-        font-size:  12px; /* Adjust as needed */
-        padding:  5px  5px; /* Adjust as needed */
+        font-size:  12px;
+        padding:  5px  5px;
     }
     .nav-item:first-child {
         margin-left:   0;
@@ -430,4 +440,24 @@ h6 {
     letter-spacing:  1px;
     vertical-align: middle;
 }
+
+h51 {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size:  18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing:  1px;
+    vertical-align: middle;
+}
+body {
+    max-width:  100%;
+    margin: auto;
+}
+
+img {
+    max-width:  100%;
+    height: auto;
+}
+
 
