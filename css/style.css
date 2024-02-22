@@ -391,6 +391,7 @@
 }
 @media (max-width:   768px) {
     .nav-pills {
+
         flex-direction: row;
         flex-wrap: wrap;
 
