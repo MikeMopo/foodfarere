@@ -159,8 +159,10 @@
 /*** Hero Header ***/
 .hero-header {
     background-image: url(../img/logo.webp);
-    background-size: cover;
+    /*background-size: cover;*/
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
     height:  95vh;
 }
 .hero-image {
@@ -175,18 +177,21 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media (max-width:  768px) {
+@media (max-width:   768px) {
     .hero-header {
-        height: auto; /* Adjust for mobile view */
+        background-size:  100vw auto;
+        height: auto;
     }
 }
+
 .button-container {
     position: fixed;
     top:  90px; /* Adjust based on your nav bar's height */
     right:  20px;
 }
 .hero {
-    margin-top:  100px; /* Adjust based on the height of your navbar */
+    margin-top:  350px;
+
 }
 
 
