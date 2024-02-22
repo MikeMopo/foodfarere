@@ -146,7 +146,7 @@
         top: 0;
         left: 0;
         z-index: 999;
-        background: transparent !important;
+        /*background: transparent !important;*/
     }
     
     .sticky-top.navbar-dark {
@@ -158,21 +158,39 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(27, 32, 46, 0.9), rgba(15, 23, 43, .9)), url(../img/bg-hero.webp) no-repeat center center;
+    background-image: url(../img/logo.webp);
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    height:  95vh;
 }
+.hero-image {
+    width:  100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area without stretching */
+}
+
+
 .hero-pages {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-@keyframes imgRotate { 
-    100% { 
-        transform: rotate(360deg); 
-    } 
+@media (max-width:  768px) {
+    .hero-header {
+        height: auto; /* Adjust for mobile view */
+    }
 }
+.button-container {
+    position: fixed;
+    top:  90px; /* Adjust based on your nav bar's height */
+    right:  20px;
+}
+.hero {
+    margin-top:  100px; /* Adjust based on the height of your navbar */
+}
+
+
+
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
