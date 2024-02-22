@@ -154,6 +154,14 @@
         background: var(--dark) !important;
     }
 }
+@media (max-width:  768px) {
+    .navbar-fixed {
+        position: sticky;
+        top:  0;
+        z-index:  1000;
+    }
+}
+
 
 
 /*** Hero Header ***/
@@ -162,11 +170,11 @@
     /*background-size: cover;*/
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 90%;
-    height:  95vh;
+    background-size: 84% 78%;
+    height:  80vh;
 }
 .hero-image {
-    width:  100%;
+    width:  90%;
     height: auto; /* Maintain aspect ratio */
     object-fit: cover; /* Cover the area without stretching */
 }
@@ -190,7 +198,7 @@
     right:  20px;
 }
 .hero {
-    margin-top:  350px;
+    margin-top:  250px;
 
 }
 
