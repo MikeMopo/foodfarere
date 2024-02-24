@@ -148,7 +148,7 @@
         z-index: 999;
         /*background: transparent !important;*/
     }
-    
+
     .sticky-top.navbar-dark {
         position: fixed;
         background: var(--dark) !important;
@@ -192,16 +192,13 @@
 }
 
 .button-container {
-    position: fixed;
-    top:  90px; /* Adjust based on your nav bar's height */
+    position: absolute;
+    top:  90px;
     right:  20px;
 }
 .hero {
     margin-top:  150px;
 }
-
-
-
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
