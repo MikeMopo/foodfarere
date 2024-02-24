@@ -193,7 +193,7 @@
 
 .button-container {
     position: absolute;
-    top:  90px;
+    bottom:  20px;
     right:  20px;
 }
 .hero {
